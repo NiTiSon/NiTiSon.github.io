@@ -1,12 +1,14 @@
 body {
+	main-clr-wht: #e6e6e6;
 	margin: 0;
 	padding: 0;
 }
 .background {
-	color: #e6e6e6;
+	color: var(main-clr-wht);
 	height: 100vh;
   	min-width: 360px;
   	display: flex;
+	position: absolute;
   	justify-content: center;
   	align-items: center;
   	background: url(background.png);
@@ -18,7 +20,22 @@ body {
 	height: 100vh;
   	min-width: 100vw;
   	background-color: rgba(255, 255, 255, 0.25);
-	
+}
+.dropdown-item {
+	display: flex;
+}
+.main-link {
+	width: 80%;
+	text-decoration: none;
+	text-decoration-line: none;
+	color: #dee2e6;
+}
+.main-link:hover {
+	cursor: pointer;
+	color: #dee2e6;
+}
+.mini-link {
+
 }
 @keyframes scroll {
    100%{
@@ -33,7 +50,7 @@ body {
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
 	.background::before {
-		-webkit-backdrop-filter: blur(20px);
-		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
 	}
 }
