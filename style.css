@@ -48,9 +48,3 @@ body {
     animation: scroll 200s linear infinite;
   }
 }
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-	.background::before {
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
-	}
-}
