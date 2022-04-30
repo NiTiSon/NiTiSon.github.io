@@ -4,10 +4,11 @@
 	<!-- Metadata -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="manifest" href="manifest.json">
 	<title>NickName73 - Main Page</title>
 	<!-- Styles -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!-- Icons -->
 	<link rel="icon" type="image/png" sizes="192x192"  href="https://github.com/NickName73/NickName73/blob/main/env/site/favicon/192.png?raw=true">
 	<link rel="icon" type="image/png" sizes="96x96" href="https://github.com/NickName73/NickName73/blob/main/env/site/favicon/96.png?raw=true">
@@ -19,7 +20,7 @@
     <meta property="og:image" content="https://nickname73.github.io/NickName73/icons/social-media/icon.png" />
     <meta property="og:type" content="website" />
     <meta property="og:description"
-        content="Later" />
+        content="NickName73" />
     <meta property="og:locale" content="en_UK" />
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,53 +32,48 @@
 	<header class="header">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container-fluid" id="main-header">
-			  <a class="navbar-brand" href="https://github.com/NickName73">
+			  	<a class="navbar-brand" href="https://github.com/NickName73">
 					<img src="https://github.com/NickName73/NickName73/blob/main/Micros/nickname73-low-flat.png?raw=true" alt="Icon" width="30" height="30" class="d-inline-block align-text-top">
 					NickName73
-			  </a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					  <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							  Links
-							</a>
-							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-							  <li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li>
-							  <li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li>
-							  <li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">CurseForge</a></li>
-					  <li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73/">Steam</a></li>
-							  <li><a class="dropdown-item" href="https://github.com/NickName73">GitHub</a></li>
-							</ul>
-					  </li>
-					  <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							  Projects
-							</a>
-							<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-								<li><h6 class="dropdown-header">C# Projects</h6></li>
-							  <li>
-								  <a class="dropdown-item" href="https://www.nuget.org/packages/NiTiSCore/">
-									  NiTiS.Core
-								  </a>
-								</li>
-							  <li><h6 class="dropdown-header">Minecraft Mods</h6></li>
-							  <li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/mdi">More Dumb Items</a></li>
-							  <li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/mdb">More Dumb Backpacks</a></li>
-							  <li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/conversion">Conversion</a></li>
-							  <li><h6 class="dropdown-header">Mindustry Mods</h6></li>
-							  <li><a class="dropdown-item" href="https://github.com/NickName73/Gravillaso">Gravillaso</a></li>
-							</ul>
-					  </li>
+			 	</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  	<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+						<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li>
+						<li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li>
+						<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">CurseForge</a></li>
+						<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73/">Steam</a></li>
+						<li><a class="dropdown-item" href="https://github.com/NickName73">GitHub</a></li>
 					</ul>
-			  </div>
+					</li>
+				  		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+						<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+							<li><h6 class="dropdown-header">C# Projects</h6></li>
+						  	<li><a class="dropdown-item" href="https://www.nuget.org/packages/NiTiSCore/">NiTiS.Core</a></li>
+						  	<li><h6 class="dropdown-header">Minecraft Mods</h6></li>
+							<li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/mdi">More Dumb Items</a></li>
+							<li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/mdb">More Dumb Backpacks</a></li>
+							<li><h6 class="dropdown-header">Mindustry Mods</h6></li>
+							<li><a class="dropdown-item" href="https://www.curseforge.com/minecraft/mc-mods/conversion">Conversion</a></li>
+							<li><a class="dropdown-item" href="https://github.com/NickName73/Gravillaso">Gravillaso</a></li>
+						</ul>
+					</li>
+				</ul>
+			  	</div>
 			</div>
-	  </nav>
+	  	</nav>
 	</header>
+	<div class="page-content">
+		<div class="box">
+
+		</div>
+	</div>
+	<!-- Scripts -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-	<script src="/script.js"></script>
+	<script src="scripts/script.js"></script>
 </body>
 </html>
