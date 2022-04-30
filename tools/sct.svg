@@ -1,0 +1,52 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="490" height="320" viewBox="0 0 490 320">
+<rect width="490" height="320" rx="15.67" style="fill:#333"/>
+<rect x="15" y="16" width="289" height="289" rx="20.31" style="fill:#4e4e4e"/>
+<script>
+const svg = document.querySelector("svg");
+
+const svgns = "http://www.w3.org/2000/svg";
+
+let newImg = document.createElementNS(svgns, "image");
+
+var link = window.location.href;
+var url = new URL(link);
+var linkToImage = url.searchParams.get("img");
+console.log(linkToImage);
+
+
+
+newImg.setAttribute("width", 512);
+newImg.setAttribute("height", 512);
+newImg.setAttribute("transform", "translate(29.5 30.5) scale(0.51)");
+newImg.setAttribute("style", "isolation:isolate");
+newImg.setAttribute("xlink:href", linkToImage);
+
+svg.appendChild(newImg);
+</script>
+<rect x="456.33" y="286.33" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="422.67" y="252.67" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="389" y="286.33" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="355.33" y="252.67" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="456.33" y="219" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="321.67" y="286.33" width="33.67" height="33.67" style="fill:#f2f2f2"/>
+<rect x="373.11" y="16.11" width="98.89" height="98.89" rx="20.31" style="fill:#4e4e4e"/>
+<script>
+let newType = document.createElementNS(svgns, "path");
+
+var type = url.searchParams.get("type");
+console.log(type);
+
+if (type == "lib") {
+    newType = document.createElementNS(svgns, "polygon")
+    newType.setAttribute("points", "419.7 86.17 419.7 35.76 403.71 35.76 403.71 86.17 403.71 102.16 419.7 102.16 449.34 102.16 449.34 86.17 419.7 86.17");
+    newType.setAttribute("style", "fill:#f2f2f2");
+} else {
+    newType.setAttribute("d", "M393.35,102V32h12.78l16.54,31.59L439.22,32H452v70H440.48V52.19l-13,25h-9.59l-13-24.89V102Z");
+    newType.setAttribute("style", "fill:#f2f2f2");
+}
+svg.appendChild(newType);
+</script>
+</svg>
