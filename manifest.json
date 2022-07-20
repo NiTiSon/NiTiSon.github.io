@@ -1,11 +1,11 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
     "name": "NickName73 Page",
-    "short_name": "NickName73",
+    "short_name": "Ni73 Page",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#212529",
-    "description": "A readable Hacker News app.",
+    "description": "",
     "icons": [{
       "src": "icons/favicon/16.png",
       "sizes": "16x16",
