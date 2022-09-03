@@ -38,6 +38,9 @@ a {
 	animation-direction: normal;
 	animation-fill-mode: forwards;
 }
+.profile-picture {
+	border-radius: 34% !important;
+}
 @keyframes up {
 	from {top: 0px;}
     to {top: -2px;}
