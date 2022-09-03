@@ -1,9 +1,0 @@
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}

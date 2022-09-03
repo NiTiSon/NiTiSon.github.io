@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [ singleton ]
+    paths:
+    - '**.cs'
+    - '**.csproj'
+    - '.github/workflows/build.yml'
+
+  workflow_dispatch:
+
+jobs:
+  ubun:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Run builder
+        run: |
+            dotnet run src/ -c Release
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./site
