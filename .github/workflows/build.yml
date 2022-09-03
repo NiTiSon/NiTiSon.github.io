@@ -17,6 +17,7 @@ jobs:
     steps:
       - name: Run builder
         run: |
+            ls
             dotnet run --project src -c Release
 
       - name: Deploy
