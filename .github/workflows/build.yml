@@ -11,13 +11,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  ubun:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
 
     steps:
       - name: Run builder
         run: |
-            ls
+            echo "$(basename $(pwd))"
             dotnet run --project src\nn73.csproj -c Release
 
       - name: Deploy
