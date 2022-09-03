@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Run builder
         run: |
-            dotnet run --project src/nn73.csproj -c Release
+            dotnet run --project src -c Release
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
