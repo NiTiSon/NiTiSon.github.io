@@ -1,0 +1,1531 @@
+2022-09-03 20:58:16.732 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 20:58:39.032 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 20:58:50.764 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 20:59:52.559 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:01:59.093 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:04:01.843 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:04:26.089 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:05:38.613 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:05:38.889 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 5, Idx: 12): Exception during deserialization
+2022-09-03 21:07:35.204 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:07:35.479 +03:00 [FTL] Fatal error during deserialization
+(Line: 1, Col: 1, Idx: 0) - (Line: 1, Col: 1, Idx: 0): Exception during deserialization
+2022-09-03 21:08:02.741 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:08:03.056 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 5, Idx: 12): Exception during deserialization
+2022-09-03 21:08:11.092 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:08:11.370 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 5, Idx: 12): Exception during deserialization
+2022-09-03 21:08:43.901 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:08:44.209 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 5, Idx: 12): Exception during deserialization
+2022-09-03 21:08:51.517 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:11:40.166 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:11:40.396 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 0, Col: 0, Chr: 0) - (Lin: 0, Col: 5, Chr: 5): Unable to deserialize property [links] not found in type [NickName73.Site.DataTypes.LinksFile]
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:12:25.809 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:12:26.044 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 4, Chr: 12) - (Lin: 1, Col: 4, Chr: 12): Unable to deserialize array. Current number of elements [0] exceeding array size [0]
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:13:07.236 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:13:07.499 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.SemanticErrorException: (Lin: 1, Col: 2, Chr: 12) - (Lin: 1, Col: 3, Chr: 13): While parsing a node, did not find expected node content.
+   at SharpYaml.Parser`1.ParseNode(Boolean isBlock, Boolean isIndentlessSequence)
+   at SharpYaml.Parser`1.ParseFlowSequenceEntry(Boolean isFirst)
+   at SharpYaml.Parser`1.MoveNext()
+   at SharpYaml.EventReader.MoveNext()
+   at SharpYaml.EventReader.Allow[T]()
+   at SharpYaml.EventReader.Expect[T]()
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:14:18.180 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:14:18.431 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 4, Chr: 12) - (Lin: 1, Col: 4, Chr: 12): Unable to deserialize array. Current number of elements [0] exceeding array size [0]
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:14:54.655 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:14:54.882 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 2, Chr: 10) - (Lin: 1, Col: 2, Chr: 10): Unable to deserialize array. Current number of elements [0] exceeding array size [0]
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:15:05.305 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:15:05.559 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 2, Chr: 10) - (Lin: 1, Col: 2, Chr: 10): Expected 'Scalar', got 'MappingStart' (at line 1, character 2).
+   at SharpYaml.EventReader.Expect[T]()
+   at SharpYaml.Serialization.Serializers.ScalarSerializerBase.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:15:33.146 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:15:33.372 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 4, Chr: 12) - (Lin: 1, Col: 4, Chr: 12): Expected 'Scalar', got 'MappingStart' (at line 1, character 4).
+   at SharpYaml.EventReader.Expect[T]()
+   at SharpYaml.Serialization.Serializers.ScalarSerializerBase.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:18:47.341 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:18:47.562 +03:00 [FTL] Fatal error during deserialization
+SharpYaml.YamlException: (Lin: 1, Col: 4, Chr: 12) - (Lin: 1, Col: 4, Chr: 12): Expected 'Scalar', got 'MappingStart' (at line 1, character 4).
+   at SharpYaml.EventReader.Expect[T]()
+   at SharpYaml.Serialization.Serializers.ScalarSerializerBase.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ArraySerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMemberCore(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.TryReadMember(ObjectContext& objectContext, Scalar& memberScalar, String& memberName)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMember(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadMembers[TStart,TEnd](ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.ObjectSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.TagTypeSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.Serializers.AnchorSerializer.ReadYaml(ObjectContext& objectContext)
+   at SharpYaml.Serialization.SerializerContext.ReadYaml(Object value, Type expectedType)
+   at SharpYaml.Serialization.Serializer.Deserialize(EventReader reader, Type expectedType, Object existingObject, SerializerContextSettings contextSettings, SerializerContext& context)
+   at SharpYaml.Serialization.Serializer.Deserialize[T](String fromText)
+   at NickName73.Site.SiteBuilder.GetPreset[T](String name) in A:\VSProj\nn73\src\SiteBuilder.cs:line 66
+2022-09-03 21:23:50.558 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:23:50.798 +03:00 [FTL] Fatal error during deserialization
+(Line: 1, Col: 1, Idx: 0) - (Line: 1, Col: 6, Idx: 5): Property 'links' not found on type 'NickName73.Site.DataTypes.LinksFile'.
+2022-09-03 21:24:11.893 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:24:12.159 +03:00 [FTL] Fatal error during deserialization
+(Line: 1, Col: 1, Idx: 0) - (Line: 1, Col: 4, Idx: 3): Property 'dot' not found on type 'NickName73.Site.DataTypes.LinksFile'.
+2022-09-03 21:24:32.922 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:24:33.199 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 5, Idx: 12): Exception during deserialization
+2022-09-03 21:26:39.371 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:26:39.655 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 5, Idx: 12) - (Line: 2, Col: 9, Idx: 16): Property 'name' not found on type 'NickName73.Site.DataTypes.LinkType'.
+2022-09-03 21:33:58.434 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:34:16.894 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:34:22.574 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:36:00.963 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:36:51.392 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:38:36.228 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:39:22.832 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:40:47.929 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:41:42.212 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:41:42.480 +03:00 [DBG] Add link Github
+2022-09-03 21:41:42.482 +03:00 [DBG] Add link Vkontakte
+2022-09-03 21:41:42.483 +03:00 [DBG] Add link Twitter
+2022-09-03 21:41:42.484 +03:00 [DBG] Add link Steam
+2022-09-03 21:41:42.485 +03:00 [DBG] Add link Curseforge
+2022-09-03 21:42:51.731 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:42:51.985 +03:00 [DBG] Add link Github to page
+2022-09-03 21:42:51.987 +03:00 [DBG] Add link Vkontakte to page
+2022-09-03 21:42:51.988 +03:00 [DBG] Add link Twitter to page
+2022-09-03 21:42:51.990 +03:00 [DBG] Add link Steam to page
+2022-09-03 21:42:51.991 +03:00 [DBG] Add link Curseforge to page
+2022-09-03 21:43:57.443 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:43:57.731 +03:00 [DBG] Add link Github to page
+2022-09-03 21:43:57.734 +03:00 [DBG] Site: <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Github</a></li>
+2022-09-03 21:43:57.736 +03:00 [DBG] Add link Vkontakte to page
+2022-09-03 21:43:57.737 +03:00 [DBG] Site: <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Github</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Vkontakte</a></li>
+2022-09-03 21:43:57.739 +03:00 [DBG] Add link Twitter to page
+2022-09-03 21:43:57.741 +03:00 [DBG] Site: <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Github</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Vkontakte</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Twitter</a></li>
+2022-09-03 21:43:57.743 +03:00 [DBG] Add link Steam to page
+2022-09-03 21:43:57.744 +03:00 [DBG] Site: <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Github</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Vkontakte</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Twitter</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Steam</a></li>
+2022-09-03 21:43:57.747 +03:00 [DBG] Add link Curseforge to page
+2022-09-03 21:43:57.749 +03:00 [DBG] Site: <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Github</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Vkontakte</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Twitter</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Steam</a></li><li><a class="dropdown-item" href="{{DROPDOWN_CONTENT_LINK}}">Curseforge</a></li>
+2022-09-03 21:44:49.857 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:44:50.154 +03:00 [DBG] Add link Github to page
+2022-09-03 21:44:50.156 +03:00 [DBG] Add link Vkontakte to page
+2022-09-03 21:44:50.157 +03:00 [DBG] Add link Twitter to page
+2022-09-03 21:44:50.159 +03:00 [DBG] Add link Steam to page
+2022-09-03 21:44:50.160 +03:00 [DBG] Add link Curseforge to page
+2022-09-03 21:47:03.961 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:47:57.142 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 21:47:57.412 +03:00 [DBG] Add link Github to page
+2022-09-03 21:47:57.413 +03:00 [DBG] Add link Vkontakte to page
+2022-09-03 21:47:57.415 +03:00 [DBG] Add link Twitter to page
+2022-09-03 21:47:57.416 +03:00 [DBG] Add link Steam to page
+2022-09-03 21:47:57.417 +03:00 [DBG] Add link Curseforge to page
+2022-09-03 22:01:57.538 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:01:57.822 +03:00 [DBG] Added link Github to page
+2022-09-03 22:01:57.824 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:01:57.825 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:01:57.826 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:01:57.827 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:01:57.860 +03:00 [FTL] Fatal error during deserialization
+(Line: 2, Col: 1, Idx: 26) - (Line: 2, Col: 11, Idx: 36): Property 'deprecated' not found on type 'NickName73.Site.DataTypes.ProjectType'.
+2022-09-03 22:02:27.820 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:02:28.097 +03:00 [DBG] Added link Github to page
+2022-09-03 22:02:28.098 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:02:28.100 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:02:28.101 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:02:28.102 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:02:28.134 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:02:28.137 +03:00 [FTL] File not found .presets\gravillaso.yml
+2022-09-03 22:04:28.798 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:04:29.054 +03:00 [DBG] Added link Github to page
+2022-09-03 22:04:29.055 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:04:29.057 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:04:29.059 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:04:29.060 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:04:29.087 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:04:29.090 +03:00 [FTL] File not found .presets\gravillaso.yml
+2022-09-03 22:04:38.037 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:04:38.321 +03:00 [DBG] Added link Github to page
+2022-09-03 22:04:38.323 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:04:38.324 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:04:38.326 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:04:38.328 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:04:38.356 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:04:38.359 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:04:38.360 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:11:06.477 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:11:06.767 +03:00 [DBG] Added link Github to page
+2022-09-03 22:11:06.769 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:11:06.770 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:11:06.771 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:11:06.773 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:11:06.808 +03:00 [FTL] Fatal error during deserialization
+(Line: 3, Col: 3, Idx: 33) - (Line: 3, Col: 15, Idx: 45): While parsing a flow sequence, did not find expected ',' or ']'.
+2022-09-03 22:11:29.655 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:11:29.920 +03:00 [DBG] Added link Github to page
+2022-09-03 22:11:29.921 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:11:29.922 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:11:29.923 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:11:29.924 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:11:29.958 +03:00 [FTL] Fatal error during deserialization
+(Line: 5, Col: 3, Idx: 72) - (Line: 5, Col: 15, Idx: 84): While parsing a flow sequence, did not find expected ',' or ']'.
+2022-09-03 22:11:37.744 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:11:38.024 +03:00 [DBG] Added link Github to page
+2022-09-03 22:11:38.026 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:11:38.027 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:11:38.029 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:11:38.030 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:11:38.038 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:11:38.039 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:11:38.040 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:11:38.065 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:11:38.067 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:11:38.068 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:11:38.069 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:11:38.070 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:11:38.071 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:11:38.071 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:11:38.072 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:11:38.073 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:12:42.982 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:12:43.262 +03:00 [DBG] Added link Github to page
+2022-09-03 22:12:43.263 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:12:43.264 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:12:43.265 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:12:43.266 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:12:43.274 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:12:43.276 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:12:43.277 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:12:43.303 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:12:43.304 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:12:43.305 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:12:43.306 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:12:43.307 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:12:43.308 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:12:43.309 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:12:43.310 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:12:43.311 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:12:43.313 +03:00 [INF] <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <li><a class="dropdown-item" href="https://github.com/NickName73">Github</a></li><li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li><li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li><li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">Steam</a></li><li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">Curseforge</a></li>i><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+    <li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><a class="dropdown-item" href="/project/nitis-core">NiTiS Core</a></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li>i>
+2022-09-03 22:13:52.499 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:15:44.527 +03:00 [DBG] Added link Github to page
+2022-09-03 22:15:47.970 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:15:51.211 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:15:53.637 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:15:55.267 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:16:34.232 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:16:37.479 +03:00 [DBG] Added link Github to page
+2022-09-03 22:16:37.481 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:16:37.483 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:16:37.484 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:16:37.486 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:16:37.488 +03:00 [INF] i>
+2022-09-03 22:16:52.643 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:16:52.939 +03:00 [DBG] Added link Github to page
+2022-09-03 22:16:52.942 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:16:52.944 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:16:52.946 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:16:52.948 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:16:52.950 +03:00 [INF] i>
+2022-09-03 22:17:20.670 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:17:20.930 +03:00 [DBG] Added link Github to page
+2022-09-03 22:17:20.933 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:17:20.936 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:17:20.938 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:17:20.940 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:17:20.942 +03:00 [INF] i>
+2022-09-03 22:17:31.856 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:17:32.121 +03:00 [DBG] Added link Github to page
+2022-09-03 22:17:32.123 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:17:32.125 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:17:32.126 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:17:32.129 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:17:32.131 +03:00 [INF] /li>
+2022-09-03 22:18:15.257 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:18:15.551 +03:00 [DBG] Added link Github to page
+2022-09-03 22:18:15.554 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:18:15.555 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:18:15.557 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:18:15.558 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:18:15.560 +03:00 [INF] 
+</li>
+2022-09-03 22:18:37.247 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:18:37.524 +03:00 [DBG] Added link Github to page
+2022-09-03 22:18:37.526 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:18:37.527 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:18:37.529 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:18:37.530 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:18:37.537 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:18:37.538 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:18:37.539 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:18:37.564 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:18:37.566 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:18:37.567 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:18:37.568 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:18:37.569 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:18:37.570 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:18:37.571 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:18:37.573 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:18:37.574 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:18:37.576 +03:00 [INF] <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <li><a class="dropdown-item" href="https://github.com/NickName73">Github</a></li><li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li><li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li><li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">Steam</a></li><li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">Curseforge</a></li>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+    <li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><a class="dropdown-item" href="/project/nitis-core">NiTiS Core</a></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li>
+</li>
+2022-09-03 22:19:09.757 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:19:10.034 +03:00 [DBG] Added link Github to page
+2022-09-03 22:19:10.035 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:19:10.036 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:19:10.037 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:19:10.038 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:19:10.045 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:19:10.046 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:19:10.047 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:19:10.086 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:19:10.088 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:19:10.088 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:19:10.089 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:19:10.090 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:19:10.091 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:19:10.092 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:19:10.093 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:19:10.094 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:20:10.195 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:20:10.509 +03:00 [DBG] Added link Github to page
+2022-09-03 22:20:10.511 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:20:10.512 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:20:10.514 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:20:10.516 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:20:10.526 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:20:10.528 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:20:10.529 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:20:10.556 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:20:10.558 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:20:10.559 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:20:10.561 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:20:10.562 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:20:10.563 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:20:10.565 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:20:10.566 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:20:10.567 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:20:10.570 +03:00 [INF] <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <li><a class="dropdown-item" href="https://github.com/NickName73">Github</a></li><li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li><li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li><li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">Steam</a></li><li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">Curseforge</a></li>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+    <li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><a class="dropdown-item" href="/project/nitis-core">NiTiS Core</a></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li>
+</li>
+2022-09-03 22:21:55.637 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:21:55.903 +03:00 [DBG] Added link Github to page
+2022-09-03 22:21:55.907 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:21:55.909 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:21:55.911 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:21:55.913 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:21:55.922 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:21:55.925 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:21:55.927 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:21:55.966 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:21:55.967 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:21:55.968 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:21:55.969 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:21:55.971 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:21:55.972 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:21:55.974 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:21:55.975 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:21:55.977 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:21:55.979 +03:00 [INF] <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+    <li><a class="dropdown-item" href="https://github.com/NickName73">Github</a></li><li><a class="dropdown-item" href="https://vk.com/nickname73">Vkontakte</a></li><li><a class="dropdown-item" href="https://twitter.com/nitis_name73">Twitter</a></li><li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">Steam</a></li><li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">Curseforge</a></li>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+    <li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><a class="dropdown-item" href="/project/nitis-core">NiTiS Core</a></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li><li><h6 class="dropdown-header">{DROPDOWN_COTNENT_NAME}</h6></li>
+</li>
+2022-09-03 22:24:01.956 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:24:02.236 +03:00 [DBG] Added link Github to page
+2022-09-03 22:24:02.237 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:24:02.239 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:24:02.240 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:24:02.242 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:24:02.251 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:24:02.252 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:24:02.254 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:24:02.277 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:24:02.278 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:24:02.280 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:24:02.282 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:24:02.283 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:24:02.285 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:24:02.287 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:24:02.289 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:24:02.290 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:24:02.293 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+<li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+</li>
+<!-- NavBarEnd -->
+
+2022-09-03 22:25:21.982 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:25:22.406 +03:00 [DBG] Added link Github to page
+2022-09-03 22:25:22.408 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:25:22.409 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:25:22.412 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:25:22.413 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:25:22.421 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:25:22.422 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:25:22.426 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:25:22.449 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:25:22.450 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:25:22.451 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:25:22.452 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:25:22.453 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:25:22.455 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:25:22.456 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:25:22.457 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:25:22.458 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:25:22.459 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+<li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+</li>
+<!-- NavBarEnd -->
+
+2022-09-03 22:27:03.622 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:27:03.667 +03:00 [INF] 
+<!-- NavBar -->
+
+<!-- NavBarEnd -->
+
+2022-09-03 22:27:33.548 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:27:33.823 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:27:33.826 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:27:33.828 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:27:33.865 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:27:33.867 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:27:33.868 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:27:33.869 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:27:33.870 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:27:33.872 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:27:33.873 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:27:33.876 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:27:33.877 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:27:33.879 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+</li>
+<!-- NavBarEnd -->
+
+2022-09-03 22:27:52.694 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:27:52.958 +03:00 [DBG] Added link Github to page
+2022-09-03 22:27:52.959 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:27:52.960 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:27:52.961 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:27:52.962 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:27:52.965 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+<li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+</li>
+<!-- NavBarEnd -->
+
+2022-09-03 22:30:31.887 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:30:32.202 +03:00 [DBG] Added link Github to page
+2022-09-03 22:30:32.204 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:30:32.205 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:30:32.206 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:30:32.208 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:30:32.210 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+    </a>
+<li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+</li> <!-- End of Links -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:33:23.936 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:33:24.212 +03:00 [DBG] Added link Github to page
+2022-09-03 22:33:24.213 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:33:24.214 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:33:24.215 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:33:24.216 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:33:24.217 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:34:15.801 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:34:16.071 +03:00 [DBG] Added link Github to page
+2022-09-03 22:34:16.074 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:34:16.077 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:34:16.079 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:34:16.080 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:34:16.089 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:34:16.090 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:34:16.091 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:34:16.116 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:34:16.117 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:34:16.118 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:34:16.120 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:34:16.121 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:34:16.121 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:34:16.122 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:34:16.123 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:34:16.124 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:34:16.126 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:35:11.418 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:35:11.703 +03:00 [DBG] Added link Github to page
+2022-09-03 22:35:11.705 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:35:11.706 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:35:11.707 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:35:11.709 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:35:11.718 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:35:11.719 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:35:11.721 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:35:11.742 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:35:11.744 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:35:11.745 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:35:11.746 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:35:11.747 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:35:11.748 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:35:11.749 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:35:11.750 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:35:11.751 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:35:11.752 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:35:44.424 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:35:44.678 +03:00 [DBG] Added link Github to page
+2022-09-03 22:35:44.681 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:35:44.683 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:35:44.684 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:35:44.686 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:35:44.697 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:35:44.704 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:35:44.706 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:35:44.731 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:35:44.734 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:35:44.735 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:35:44.736 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:35:44.738 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:35:44.739 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:35:44.740 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:35:44.742 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:35:44.744 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:35:44.748 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:36:13.771 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:36:14.076 +03:00 [DBG] Added link Github to page
+2022-09-03 22:36:14.077 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:36:14.078 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:36:14.079 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:36:14.080 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:36:14.088 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:36:14.089 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:36:14.090 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:36:14.116 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:36:14.118 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:36:14.119 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:36:14.121 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:36:14.124 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:36:14.125 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:36:14.126 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:36:14.127 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:36:14.128 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:36:14.130 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:37:00.149 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:37:00.551 +03:00 [DBG] Added link Github to page
+2022-09-03 22:37:00.552 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:37:00.554 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:37:00.555 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:37:00.556 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:37:00.563 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:37:00.565 +03:00 [WRN] >> 0
+2022-09-03 22:37:00.573 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:37:00.575 +03:00 [WRN] >> 1
+2022-09-03 22:37:00.576 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:37:00.598 +03:00 [WRN] >> 2
+2022-09-03 22:37:00.599 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:37:00.601 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:37:00.603 +03:00 [WRN] >> 3
+2022-09-03 22:37:00.604 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:37:00.606 +03:00 [WRN] >> 4
+2022-09-03 22:37:00.607 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:37:00.608 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:37:00.611 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:37:00.612 +03:00 [WRN] >> 5
+2022-09-03 22:37:00.613 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:37:00.614 +03:00 [WRN] >> 6
+2022-09-03 22:37:00.615 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:37:00.616 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:37:00.620 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+<li><h6 class="dropdown-header">
+{DROPDOWN_COTNENT_NAME}
+</h6></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:38:15.917 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:38:16.189 +03:00 [DBG] Added link Github to page
+2022-09-03 22:38:16.191 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:38:16.193 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:38:16.194 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:38:16.196 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:38:16.203 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:38:16.204 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:38:16.229 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:38:16.231 +03:00 [WRN] >> 0
+2022-09-03 22:38:16.237 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:38:16.238 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:38:16.239 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:38:16.240 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:38:16.241 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:38:16.243 +03:00 [WRN] >> 1
+2022-09-03 22:39:08.986 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:39:09.277 +03:00 [DBG] Added link Github to page
+2022-09-03 22:39:09.278 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:39:09.279 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:39:09.280 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:39:09.281 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:39:09.291 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:39:09.293 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:39:09.318 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:39:09.320 +03:00 [WRN] >> 0
+2022-09-03 22:39:09.328 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:39:09.330 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:39:09.331 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:39:09.332 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:39:09.334 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:39:09.336 +03:00 [WRN] >> 1
+2022-09-03 22:40:01.658 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:40:01.922 +03:00 [DBG] Added link Github to page
+2022-09-03 22:40:01.924 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:40:01.925 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:40:01.926 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:40:01.928 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:40:01.937 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:40:01.938 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:40:01.964 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:40:01.966 +03:00 [WRN] >> 0
+2022-09-03 22:40:01.973 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:40:01.974 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:40:01.975 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:40:01.976 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:40:01.977 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:40:01.978 +03:00 [WRN] >> 1
+2022-09-03 22:40:01.979 +03:00 [WRN] >> 2
+2022-09-03 22:40:01.980 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:40:01.981 +03:00 [DBG] >> null:!Games
+2022-09-03 22:40:01.982 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:40:01.982 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:40:01.984 +03:00 [WRN] >> 3
+2022-09-03 22:40:01.985 +03:00 [WRN] >> 4
+2022-09-03 22:40:01.986 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:40:44.883 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:40:45.148 +03:00 [DBG] Added link Github to page
+2022-09-03 22:40:45.150 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:40:45.151 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:40:45.153 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:40:45.155 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:40:45.163 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:40:45.164 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:40:45.186 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:40:45.188 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:40:45.190 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:40:45.190 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:40:45.191 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:40:45.192 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:40:45.193 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:40:45.194 +03:00 [DBG] >> null:!Games
+2022-09-03 22:40:45.195 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:40:45.196 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:40:45.198 +03:00 [INF] 
+<!-- NavBar -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Links
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="https://github.com/NickName73">
+Github
+</a></li>
+<li><a class="dropdown-item" href="https://vk.com/nickname73">
+Vkontakte
+</a></li>
+<li><a class="dropdown-item" href="https://twitter.com/nitis_name73">
+Twitter
+</a></li>
+<li><a class="dropdown-item" href="https://steamcommunity.com/id/nitis-nickname73">
+Steam
+</a></li>
+<li><a class="dropdown-item" href="https://www.curseforge.com/members/nickname_73/projects">
+Curseforge
+</a></li>
+
+    </ul>
+</li> <!-- End of Links --><li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects
+</a>
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+    <li><a class="dropdown-item" href="/project/nitis-core">
+NiTiS Core
+</a></li>
+
+    </ul>
+</li> <!-- End of Projects -->
+<!-- NavBarEnd -->
+
+2022-09-03 22:41:03.410 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:41:03.664 +03:00 [DBG] Added link Github to page
+2022-09-03 22:41:03.666 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:41:03.667 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:41:03.668 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:41:03.669 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:41:03.677 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:41:03.678 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:41:03.703 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:41:03.705 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:41:03.707 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:41:03.708 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:41:03.709 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:41:03.710 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:41:03.711 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:41:03.712 +03:00 [DBG] >> null:!Games
+2022-09-03 22:41:03.713 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:41:03.713 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:42:28.133 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:42:28.399 +03:00 [DBG] Added link Github to page
+2022-09-03 22:42:28.402 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:42:28.404 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:42:28.406 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:42:28.407 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:42:28.416 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:42:28.418 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:42:28.440 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:42:28.441 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:42:28.443 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:42:28.444 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:42:28.446 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:42:28.448 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:42:28.449 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:42:28.450 +03:00 [DBG] >> null:!Games
+2022-09-03 22:42:28.451 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:42:28.452 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:44:56.576 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:44:56.877 +03:00 [DBG] Added link Github to page
+2022-09-03 22:44:56.879 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:44:56.881 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:44:56.882 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:44:56.884 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:44:56.893 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:44:56.894 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:44:56.897 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:44:56.923 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:44:56.924 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:44:56.928 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:44:56.929 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:44:56.930 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:44:56.931 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:44:56.933 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:44:56.935 +03:00 [DBG] Added title gravillaso to page
+2022-09-03 22:44:56.936 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:44:56.938 +03:00 [DBG] >> null:!Games
+2022-09-03 22:44:56.939 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:44:56.941 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:44:56.943 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:44:56.944 +03:00 [DBG] Added title sky-facture to page
+2022-09-03 22:45:32.569 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:45:32.839 +03:00 [DBG] Added link Github to page
+2022-09-03 22:45:32.840 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:45:32.842 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:45:32.843 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:45:32.845 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:45:32.853 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:45:32.854 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:45:32.857 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:45:32.882 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:45:32.883 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:45:32.884 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:45:32.885 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:45:32.886 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:45:32.887 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:45:32.888 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:45:32.889 +03:00 [DBG] Added title gravillaso to page
+2022-09-03 22:45:32.890 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:45:32.891 +03:00 [DBG] >> null:!Games
+2022-09-03 22:45:32.892 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:45:32.893 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:45:32.894 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:45:32.895 +03:00 [DBG] Added title sky-facture to page
+2022-09-03 22:47:17.179 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:47:17.441 +03:00 [DBG] Added link Github to page
+2022-09-03 22:47:17.443 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:47:17.444 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:47:17.446 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:47:17.447 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:47:17.457 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:47:17.458 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:47:17.481 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:47:17.482 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:47:17.483 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:47:17.484 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:47:17.486 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:47:17.487 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:47:17.488 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:47:17.489 +03:00 [DBG] >> null:!Games
+2022-09-03 22:47:17.490 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:47:17.491 +03:00 [DBG] >> null:sky-facture
+2022-09-03 22:47:31.737 +03:00 [DBG] Page: index
+Uri: https://nickname73.github.io/
+File name: index.html
+2022-09-03 22:47:31.994 +03:00 [DBG] Added link Github to page
+2022-09-03 22:47:31.996 +03:00 [DBG] Added link Vkontakte to page
+2022-09-03 22:47:31.997 +03:00 [DBG] Added link Twitter to page
+2022-09-03 22:47:31.998 +03:00 [DBG] Added link Steam to page
+2022-09-03 22:47:31.999 +03:00 [DBG] Added link Curseforge to page
+2022-09-03 22:47:32.006 +03:00 [WRN] File not found .presets\!C# Projects.yml
+2022-09-03 22:47:32.007 +03:00 [DBG] >> null:!C# Projects
+2022-09-03 22:47:32.008 +03:00 [DBG] Added title !C# Projects to page
+2022-09-03 22:47:32.030 +03:00 [DBG] >> NiTiS Core
+2022-09-03 22:47:32.030 +03:00 [DBG] Added link NiTiS Core to page
+2022-09-03 22:47:32.032 +03:00 [WRN] File not found .presets\!Mindustry Mods.yml
+2022-09-03 22:47:32.032 +03:00 [DBG] >> null:!Mindustry Mods
+2022-09-03 22:47:32.033 +03:00 [DBG] Added title !Mindustry Mods to page
+2022-09-03 22:47:32.035 +03:00 [WRN] File not found .presets\gravillaso.yml
+2022-09-03 22:47:32.036 +03:00 [DBG] >> null:gravillaso
+2022-09-03 22:47:32.036 +03:00 [WRN] File not found .presets\!Games.yml
+2022-09-03 22:47:32.037 +03:00 [DBG] >> null:!Games
+2022-09-03 22:47:32.038 +03:00 [DBG] Added title !Games to page
+2022-09-03 22:47:32.039 +03:00 [WRN] File not found .presets\sky-facture.yml
+2022-09-03 22:47:32.040 +03:00 [DBG] >> null:sky-facture

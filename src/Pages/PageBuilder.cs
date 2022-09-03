@@ -8,6 +8,7 @@ public abstract class PageBuilder : IDisposable
 {
 	protected readonly SiteBuilder builder;
 	protected readonly string page;
+	public abstract string PageName { get; }  
 	public string FileName => page + ".html";
 	public string PageUri => page is "index" ? builder.SiteUrl.ToString() : builder.SiteUrl + page;
 	public PageBuilder(SiteBuilder builder, string page)

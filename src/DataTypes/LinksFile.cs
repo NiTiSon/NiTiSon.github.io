@@ -3,7 +3,17 @@
 namespace NickName73.Site.DataTypes;
 
 [Serializable]
-public sealed class LinksFile
+public sealed class LinksFile : IFileType
 {
-	public string[] Links { get; set; } = Array.Empty<String>();
+	public static string DefaultFileName => "links.yml";
+	public LinksFile(params LinkType[] links)
+	{
+		Links = links;
+	}
+	public LinksFile()
+	{
+
+	}
+	[YamlDotNet.Serialization.YamlMember(Alias = "links")]
+	public LinkType[] Links { get; set; }
 }

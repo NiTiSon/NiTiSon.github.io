@@ -1,8 +1,8 @@
 project-name: NiTiS Core
-deprecated: true
+depricated: true
 links:
   - type: github
-    url: https://github.com/NiTiS-Dev/NiTiSCore
+    url: "https://github.com/NiTiS-Dev/NiTiSCore"
   - type: nuget
-    url: https://nuget.org/packages/NiTiSCore
+    url: "https://nuget.org/packages/NiTiSCore"
 

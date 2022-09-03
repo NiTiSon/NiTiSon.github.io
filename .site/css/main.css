@@ -40,6 +40,7 @@ a {
 }
 .profile-picture {
 	border-radius: 34% !important;
+	margin-left: 12px;
 }
 @keyframes up {
 	from {top: 0px;}
